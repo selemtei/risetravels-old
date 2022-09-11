@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
@@ -26,9 +26,7 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
+          <Redirect from="*" to="/" />
         </Switch>
         <Footer />
       </Router>
