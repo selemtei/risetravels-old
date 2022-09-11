@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/risetravels/static/css/main.d1699eab.chunk.css",
-    "main.js": "/risetravels/static/js/main.b05c6208.chunk.js",
-    "main.js.map": "/risetravels/static/js/main.b05c6208.chunk.js.map",
+    "main.js": "/risetravels/static/js/main.855f30fc.chunk.js",
+    "main.js.map": "/risetravels/static/js/main.855f30fc.chunk.js.map",
     "runtime-main.js": "/risetravels/static/js/runtime-main.90f2a775.js",
     "runtime-main.js.map": "/risetravels/static/js/runtime-main.90f2a775.js.map",
-    "static/js/2.68e14180.chunk.js": "/risetravels/static/js/2.68e14180.chunk.js",
-    "static/js/2.68e14180.chunk.js.map": "/risetravels/static/js/2.68e14180.chunk.js.map",
+    "static/js/2.50c91b26.chunk.js": "/risetravels/static/js/2.50c91b26.chunk.js",
+    "static/js/2.50c91b26.chunk.js.map": "/risetravels/static/js/2.50c91b26.chunk.js.map",
     "static/js/3.8d329950.chunk.js": "/risetravels/static/js/3.8d329950.chunk.js",
     "static/js/3.8d329950.chunk.js.map": "/risetravels/static/js/3.8d329950.chunk.js.map",
     "index.html": "/risetravels/index.html",
     "static/css/main.d1699eab.chunk.css.map": "/risetravels/static/css/main.d1699eab.chunk.css.map",
-    "static/js/2.68e14180.chunk.js.LICENSE.txt": "/risetravels/static/js/2.68e14180.chunk.js.LICENSE.txt",
+    "static/js/2.50c91b26.chunk.js.LICENSE.txt": "/risetravels/static/js/2.50c91b26.chunk.js.LICENSE.txt",
     "static/media/banner.7212e479.png": "/risetravels/static/media/banner.7212e479.png",
     "static/media/flight-booking.d4210294.jpg": "/risetravels/static/media/flight-booking.d4210294.jpg",
     "static/media/hotel-booking.247e7aca.jpg": "/risetravels/static/media/hotel-booking.247e7aca.jpg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.90f2a775.js",
-    "static/js/2.68e14180.chunk.js",
+    "static/js/2.50c91b26.chunk.js",
     "static/css/main.d1699eab.chunk.css",
-    "static/js/main.b05c6208.chunk.js"
+    "static/js/main.855f30fc.chunk.js"
   ]
 }
