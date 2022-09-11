@@ -1,6 +1,7 @@
 {
     "name": "rise-travels",
     "version": "1.0.0",
+    "homepage": "https://selemtei.github.io/risetravels",
     "private": true,
     "dependencies": {
         "@craco/craco": "^6.4.0",
@@ -19,6 +20,8 @@
         "web-vitals": "^1.0.1"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "craco start",
         "build": "craco build",
         "test": "craco test",
@@ -44,6 +47,7 @@
     },
     "devDependencies": {
         "autoprefixer": "^9",
+        "gh-pages": "^4.0.0",
         "postcss": "^7",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     }
