@@ -1,10 +1,11 @@
 import React from "react";
-import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+// import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 
 const Contact = () => {
   return (
     <div>
-      <Breadcrumbs title="Contact us" />
+      {/* <Breadcrumbs title="Contact us" /> */}
+      <h1 id="contact" className="text-center text-5xl font-semibold">CONTACT US</h1>
       <div className="container py-16 ">
         <div className="pb-8">
           <h1 className="text-4xl font-bold font-Roboto">
@@ -58,7 +59,7 @@ const Contact = () => {
                 <i className="fas fa-map-marker-alt text-3xl text-secondary"></i>
               </div>
               <div className="px-8">
-                <p>Wood Workshop, 3146 Koontz, California</p>
+                <p>Dar Free Market Mall, Office F-32, First Floor. Ali Hassan Mwinyi Road, Oysterbay</p>
               </div>
             </div>
             <div className="flex py-4">
@@ -66,8 +67,7 @@ const Contact = () => {
                 <i className="far fa-envelope text-3xl text-secondary"></i>
               </div>
               <div className="px-8">
-                <p>company@domain.com</p>
-                <p>support@adc.com</p>
+                <p>info@makenis.com</p>
               </div>
             </div>
             <div className="flex py-4">
@@ -75,24 +75,12 @@ const Contact = () => {
                 <i className="fas fa-phone text-3xl text-secondary"></i>
               </div>
               <div className="px-8 font-bold">
-                <p>+ 01 (977) 2599 12</p>
-                <p>+ 3215 546 8975</p>
+                <p>+255-764-172-973</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <iframe
-        className="w-full h-96"
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
-        title="map"
-        scrolling="no"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746840.9284193553!2d88.10075845061293!3d23.495632628138665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sus!4v1633349781164!5m2!1sen!2sus"
-      ></iframe>
     </div>
   );
 };

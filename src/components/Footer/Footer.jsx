@@ -7,43 +7,27 @@ const Footer = () => {
         <div className="">
           <div className="flex">
             <span className="text-2xl font-Poppins border-l-4 px-2 border-primary">
-              TRIP
+              RISE
               <span>
                 <i className="fas fa-plane-departure text-blue-500 animate-pulse"></i>
               </span>
-              RANGER
+              TRAVELS
             </span>
           </div>
           <p className="text-justify py-4">
-            To have your lawn look its best, trust Landscaping & Garening, Inc.
-            to get the job done right. We take a great deal of pride in the
-            quality of our work. we understand what complete customer
-            satisfaction means customer satisfaction.
+            We are the leading trip advisors to ensure your trip is well planned out. 
+            You will definetely enjoy working with us since we do care.
           </p>
           <div className="text-primary text-2xl flex">
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.facebook.com/"
-            >
-              <i className="fab fa-facebook-square ml-2"></i>
-            </a>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/makenistz/"
             >
               <i className="fab fa-instagram-square  ml-2"></i>
             </a>
-            <a rel="noreferrer" target="_blank" href="https://twitter.com/">
+            <a rel="noreferrer" target="_blank" href="https://twitter.com/makenistz">
               <i className="fab fa-twitter-square ml-2"></i>
-            </a>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://www.linkedin.com/"
-            >
-              <i className="fab fa-linkedin ml-2"></i>
             </a>
           </div>
         </div>
@@ -59,7 +43,7 @@ const Footer = () => {
               <Link to="/about">About Us</Link>
             </li>
             <li className="py-1 hover:text-primary">
-              <Link to="/tours">Tours</Link>
+              <Link to="/services">Services</Link>
             </li>
             <li className="py-1  hover:text-primary">
               <Link to="/contact">Contact us</Link>
@@ -73,16 +57,15 @@ const Footer = () => {
 
           <div className="py-4">
             <p>
-              <i className="fas fa-phone-alt text-primary"></i> +01 (977) 2599
-              12
+              <i className="fas fa-phone-alt text-primary"></i> +255-764-172-973
             </p>
             <p className="py-2">
               <i className="far fa-envelope text-primary"></i>{" "}
-              company@domain.com
+              info@makenis.com
             </p>
             <p>
-              <i className="fas fa-map-marker-alt text-primary"></i> 3146
-              Koontz, California
+              <i className="fas fa-map-marker-alt text-primary"></i>{" "}
+              Dar Free Market Mall, Office F-32, First Floor. Ali Hassan Mwinyi Road, Oysterbay
             </p>
           </div>
         </div>
