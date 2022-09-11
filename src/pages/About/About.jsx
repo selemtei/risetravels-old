@@ -1,11 +1,10 @@
 import React from "react";
-import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import mission from "../../images/our-mission.jpg";
 import story from "../../images/our-story.jpg";
 const About = () => {
   return (
     <>
-      <Breadcrumbs title="about us" />
+      <h1 id="about-us" className="text-center text-5xl font-semibold mt-10">ABOUT US</h1>
       <div className="container lg:flex py-16">
         <div className="h-full lg:w-2/3 w-full">
           <img className="w-full" src={story} alt="" />

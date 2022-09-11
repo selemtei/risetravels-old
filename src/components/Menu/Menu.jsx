@@ -1,24 +1,9 @@
 import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
-import { useAuth } from "../Context/AuthContext";
+import { Link } from "react-router-dom";
+
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState();
-  const [toggle, setToggle] = useState(false);
 
-  const { currentUser, logout } = useAuth();
-  const history = useHistory();
-  const handleLogout = async () => {
-    try {
-      await logout();
-      history.push("/");
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  const triggerToggle = () => {
-    setToggle(!toggle);
-  };
   return (
     <>
       <div className="flex flex-wrap sticky">
@@ -31,11 +16,11 @@ const Menu = () => {
                   className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
                 >
                   <h1 className="text-4xl font-bold uppercase">
-                    Trip
+                    Rise
                     <span>
                       <i className="fas fa-plane-departure text-blue-500 animate-pulse"></i>
                     </span>
-                    Ranger
+                    Travels
                   </h1>
                 </Link>
                 <button
@@ -73,10 +58,10 @@ const Menu = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      to="/tours"
+                      to="/services"
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                     >
-                      Tours
+                      Services
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -87,75 +72,6 @@ const Menu = () => {
                       Contact Us
                     </Link>
                   </li>
-                  {!currentUser?.email ? (
-                    <>
-                      <li className="nav-item bg-secondary my-2 lg:my-0 rounded-md mr-4">
-                        <Link
-                          to="/login"
-                          className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                        >
-                          Login
-                        </Link>
-                      </li>
-                      <li className="nav-item bg-indigo-500 my-2 lg:my-0 mr-4 rounded-md">
-                        <Link
-                          to="/register"
-                          className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                        >
-                          Register
-                        </Link>
-                      </li>
-                    </>
-                  ) : (
-                    <>
-                      <li className="flex flex-col items-center">
-                        <div className="relative">
-                          <div className="rounded-full w-40 bg-gradient-to-br from-yellow-200 to-red-500 p-1">
-                            <li
-                              onClick={triggerToggle}
-                              className="bg-white flex items-center  p-1 rounded-full cursor-pointer transform transition hover:rotate-6"
-                            >
-                              <img
-                                src={currentUser?.photoURL}
-                                className="rounded-full"
-                                width="35"
-                                alt=""
-                              />
-                              <span className="text-sm px-2 text-black w-full overflow-hidden overflow-ellipsis">
-                                {currentUser?.displayName || currentUser?.email}
-                              </span>
-                              <i className="fas fa-chevron-down"></i>
-                            </li>
-                          </div>
-                          <div
-                            className={`${
-                              toggle ? "inline-block" : "hidden"
-                            } absolute z-50 right-0 py-2 items-center justify-center mt-3 w-40 h-24  bg-gradient-to-br from-primary to-secondary`}
-                          >
-                            <li className="nav-item py-2">
-                              <Link
-                                to="/dashboard"
-                                className="px-3 py-2 cursor-pointer items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                              >
-                                <i className="fas fa-cog text-1xl px-2"></i>
-                                Dashboard
-                              </Link>
-                            </li>
-                            <li className="nav-item py-2">
-                              <Link
-                                to="#"
-                                onClick={handleLogout}
-                                className="px-3 py-2 cursor-pointer items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                              >
-                                <i className="fas fa-sign-out-alt text-1xl px-2"></i>
-                                Logout
-                              </Link>
-                            </li>
-                          </div>
-                        </div>
-                      </li>
-                    </>
-                  )}
                 </ul>
               </div>
             </div>
