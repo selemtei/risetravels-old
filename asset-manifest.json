@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/risetravels/static/css/main.d1699eab.chunk.css",
+    "main.js": "/risetravels/static/js/main.b05c6208.chunk.js",
+    "main.js.map": "/risetravels/static/js/main.b05c6208.chunk.js.map",
+    "runtime-main.js": "/risetravels/static/js/runtime-main.90f2a775.js",
+    "runtime-main.js.map": "/risetravels/static/js/runtime-main.90f2a775.js.map",
+    "static/js/2.68e14180.chunk.js": "/risetravels/static/js/2.68e14180.chunk.js",
+    "static/js/2.68e14180.chunk.js.map": "/risetravels/static/js/2.68e14180.chunk.js.map",
+    "static/js/3.8d329950.chunk.js": "/risetravels/static/js/3.8d329950.chunk.js",
+    "static/js/3.8d329950.chunk.js.map": "/risetravels/static/js/3.8d329950.chunk.js.map",
+    "index.html": "/risetravels/index.html",
+    "static/css/main.d1699eab.chunk.css.map": "/risetravels/static/css/main.d1699eab.chunk.css.map",
+    "static/js/2.68e14180.chunk.js.LICENSE.txt": "/risetravels/static/js/2.68e14180.chunk.js.LICENSE.txt",
+    "static/media/banner.7212e479.png": "/risetravels/static/media/banner.7212e479.png",
+    "static/media/flight-booking.d4210294.jpg": "/risetravels/static/media/flight-booking.d4210294.jpg",
+    "static/media/hotel-booking.247e7aca.jpg": "/risetravels/static/media/hotel-booking.247e7aca.jpg",
+    "static/media/our-mission.93b3a111.jpg": "/risetravels/static/media/our-mission.93b3a111.jpg",
+    "static/media/our-story.68545983.jpg": "/risetravels/static/media/our-story.68545983.jpg",
+    "static/media/passport-assistance.34aeaed6.jpg": "/risetravels/static/media/passport-assistance.34aeaed6.jpg",
+    "static/media/travel-insurance.42f3439f.jpg": "/risetravels/static/media/travel-insurance.42f3439f.jpg",
+    "static/media/vacation.5362bb41.jpg": "/risetravels/static/media/vacation.5362bb41.jpg",
+    "static/media/visa-assistance.eb45a6a5.jpg": "/risetravels/static/media/visa-assistance.eb45a6a5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90f2a775.js",
+    "static/js/2.68e14180.chunk.js",
+    "static/css/main.d1699eab.chunk.css",
+    "static/js/main.b05c6208.chunk.js"
+  ]
+}
